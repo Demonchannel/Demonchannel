@@ -1,0 +1,85 @@
+html {
+    height: 100%;
+}
+body{
+    font-family: Arial, sans-serif;
+}
+nav.header{
+    width: 100%;
+    height: 60px;
+    background: #344051;
+}
+.header_cont{
+    color: #fff;
+    font-size: 17px;
+    line-height: 60px;
+    padding-left: 388px;
+    float: left;
+    width: 100%;
+}
+#header_list li:first-child{
+margin-right: 30%;
+}
+.header_cont li{
+    float:left;
+    line-height: 60px;
+    color:white;
+    margin-right: 40px;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.header_cont li:first-child{
+    margin-right: 40px;
+}
+nav.footer{
+    width: 100%;
+    height: 92px;
+    background: #344051;
+}
+div.hello_its_me{
+    width: 100%;
+    height: calc(100% - 60px);
+    background: black;
+    color:white;
+}
+div.its_me h1{
+font-size: 17px;
+}
+div.its_me input{
+    size: 30px
+}
+div.about_me{
+    width: 100%;
+    height: 717px;
+    background-color: green;
+}
+div.skills{
+    width: 100%;
+    height: 520px;
+    background: pink;
+}
+div.costs{
+    width: 100%;
+    height: 2006px;
+    background: aqua;
+}
+div.stats{
+    width: 100%;
+    height: 500px;
+    background: sandybrown;
+}
+div.reviews{
+    width: 100%;
+    height: 590px;
+    background: cadetblue;
+}
+div.contacts{
+    width: 100%;
+    height: 808px;
+    background: darksalmon;
+}
+div.map{
+    height: 350px;
+    width: 100%;
+    background: firebrick   ;
+}
